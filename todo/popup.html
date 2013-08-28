@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <link href="style/popup.css" rel="stylesheet" />
+    <script src="script/jquery.min.js"></script>
+	<script src="script/popup.js"></script>
+  </head>
+  <body>
+	<div class="view">
+		<div class="header" title="添加当前页面"><span id="add" class="btn btn_large">添加</span></div>
+		<hr />
+		<div class="content">
+			<div class="login" id="login" style="display:none">
+				<div>
+					<p id="error"></p>
+				</div>
+				<div>
+					<input type="text" id="username" name="username" placeholder="username" tabindex="1"/>
+				</div>
+				<div>
+					<input type="password" id="password" name="password" placeholder="password" tabindex="2"/>
+				</div>
+				<div class="command">
+					<input type="button" class="btn" id="btn_login"  value="登录"/>
+					<input type="button" class="btn" id="btn_regist" value="注册"/>
+				</div>
+			</div>
+			<div class="todo" id="todo" style="display:none">
+				<div id="list">
+				
+				</div>
+				<hr />
+				<div class="more">
+					<a href="#" id="more">更多</a>
+					<div id="loginout"><a href="#">注销</a></div>
+				</div>
+			</div>
+			<div class="loding" id="loading"><img src="img/loading.gif" /></div>
+		</div>
+	</div>
+  </body>
+</html>
