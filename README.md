@@ -1,4 +1,8 @@
-viewitlater
+View It Later
 ===========
 
-View It Laiter
+谷歌浏览器的插件。
+
+当你上班的时候发现有趣的页面或者有趣的视频，由于不方便在工作时间观看，可用此插件加入到View It Later。
+
+利用浏览器的书签功能也能实现这个功能。
