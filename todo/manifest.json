@@ -2,8 +2,11 @@
   "name": "view it later",
   "version": "1.0",
   "permissions": [
-    "contextMenus", "tabs","cookies", "http://*.zinor.net/*", "http://*/*"
+    "contextMenus", "tabs","cookies", "http://*.zinor.net/*", "contextMenus"
   ],
+  "background": {
+     "page": "background.html"
+  },
   "browser_action": {
       "default_title": "view it later",
       "default_icon": "img/icon.png",
@@ -11,7 +14,7 @@
   },
   "icons": {
       "48": "img/icon_48.png"
-   },
-   "description":"view it later",
+  },
+  "description":"view it later",
   "manifest_version": 2
 }

@@ -4,10 +4,10 @@ var g_title;
 var domain = "http://www.zinor.net";
 var url_login = domain+"/action/user/login";
 var url_loginout = domain+"/action/user/loginout";
-var url_add = domain+"/action/todo/add";
-var url_mark = domain+"/action/todo/mark";
-var url_list = domain+"/action/todo/list";
-var url_more = domain+"/todo/more";
+var url_add = domain+"/action/view/add";
+var url_mark = domain+"/action/view/mark";
+var url_list = domain+"/action/view/list";
+var url_more = domain+"/view/more";
 var url_register = domain+"/register";
 
 //初始化
@@ -44,12 +44,12 @@ function add() {
 	var params = {
 		"url" : g_url,
 		"title" : g_title
-	}
+	};
 	send(url_add, params, function(msg){
 		if(msg.error) {
 			return ;
 		}
-		var node = "<li id='"+msg.id+"' url='"+g_url+"' title='"+g_title+"'>"+g_title+"</li>"
+		var node = "<li id='"+msg.id+"' url='"+g_url+"' title='"+g_title+"'>"+g_title+"</li>";
 		$("#todo").prepend(node);
 		window.close();
 	});
@@ -69,7 +69,7 @@ function login() {
 	}
 	var params = {
 		"username":u.val(),
-		"password":p.val()
+		"pwd":p.val()
 	};
 	send(url_login, params, function(msg){
 		if(msg.error) {
@@ -165,6 +165,7 @@ function showLoading() {
 	$("#todo").hide();
 	$("#loading").show();
 }
+
 $(function(){
 	init();
 	$("#add").live("click", add);
@@ -178,3 +179,5 @@ $(function(){
 	$("#more").live("click", viewMore);
 	$("#loginout").live("click", loginout);
 });
+
+
