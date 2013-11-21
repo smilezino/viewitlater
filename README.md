@@ -7,7 +7,7 @@ View It Later
 
 当然可以加入书签等有时间再看！
 
-但是书签多了管理都麻烦，书签的同步也不一定那么及时，于是就有了这个[chrome插件](http://www.zinor.net/action/file/crx)了^.^
+但是书签多了管理都麻烦，书签的同步也不一定那么及时，于是就有了这个[chrome插件](http://www.zinor.net/action/file/download?id=4)了^.^
 
 ![图](http://www.zinor.net/img/viewitlater.jpg)
 
@@ -19,7 +19,7 @@ View It Later
 
 ###安装
 
-[点击下载](http://www.zinor.net/action/file/crx)插件，然后打开google浏览器的应用拓展界面，设置--工具--拓展程序，或者在google浏览器地址栏输入 chrome://extensions/
+[点击下载](http://www.zinor.net/action/file/download?id=4) 插件，然后打开google浏览器的应用拓展界面，设置--工具--拓展程序，或者在google浏览器地址栏输入 chrome://extensions/
 
 然后将下载下来的插件拖到这个界面进行安装^.^  
 
