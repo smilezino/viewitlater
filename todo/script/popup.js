@@ -1,7 +1,7 @@
 var g_url;
 var g_title;
 
-var domain = "http://www.zinor.net";
+var domain = "http://zinor.net";
 var url_login = domain+"/action/user/login";
 var url_loginout = domain+"/action/user/loginout";
 var url_add = domain+"/action/view/add";
